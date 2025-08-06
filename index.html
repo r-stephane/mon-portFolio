@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="style.css">
@@ -16,7 +17,7 @@
             <nav>
                 <ul>
                     <li><a href="#presentation">Présentation</a></li>
-                    <li><a href="proto.html">Projets</a></li>
+                    <li><a href="Projets">Projets</a></li>
                     <li><a href="#competences">Compétences</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -31,8 +32,7 @@
             <p>Bonjour! Je suis ribeye stephane mbaimou, un passionné de la creation des applications web et mobiles
                 ainsi que des sites web. Avec une années d'expérience dans le
                 domaine de devellopement web et mobile, j'ai travaillé sur divers projets allant de la creation des
-                interfaces utilisateurs dynamique à creation des sites web.</p>
-            <p>Ma philosophie est d'apporter des solutions adequate pour repondre aux besoins certains problemes que
+                interfaces utilisateurs dynamique à creation des sites web.Ma philosophie est d'apporter des solutions adequate pour repondre aux besoins certains problemes que
                 rencontrent les entreprises en voix d'innovations. J'aime relever des défis techniques et
                 créer des solutions élégantes et efficaces.</p>
         </div>
@@ -40,14 +40,64 @@
     <section id="competences">
         <div class="container">
             <h2>Mes Compétences</h2>
-            <ul>
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript </li>
-                <li>Framework (React, Vue, Angular)</li>
-                <li>Bases de données (MySQL)</li>
-                <li>Outils (Git)</li>
-                <li>UI/UX Design</li>
-            </ul>
+            <!-- À placer dans la section compétences -->
+<ul class="competences-list">
+    <li>
+        Maquetter une application
+        <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+    </li>
+    <li>
+        Réaliser une interface utilisateur web statique et adaptale
+        <div class="progress-bar"><div class="progress" style="width: 80%;">80%</div></div>
+    </li>
+    <li>
+        Developper une interface utilisateur web dynamique
+        <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+    </li>
+    <li>
+        Créer une base de données (MySQL,MongoDB)
+        <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+    </li>
+    <li>
+        Developper par la partie backend d'une application  
+        <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+    </li>
+    <li>
+        Developper les composants d'accés aux données
+        <div class="progress-bar"><div class="progress" style="width: 65%;">65%</div></div>
+    </li>
+</ul>
+        </div>
+    </section>
+
+
+    <section id="projets">
+        <div class="container">
+            <h2>Mes Projets</h2>
+
+            <div class="projet">
+                <h3>Projet 1</h3>
+                <img src="images/responsive.png" alt="Projet 1" style="max-width:300px;">
+                <p>Description du projet 1. Technologies utilisées : HTML, CSS.</p>
+                <a href="#">Voir le projet:https://github.com/r-stephane/responsive-design-.git</a>
+            </div>html
+
+            <div class="projet">
+                <h3>Projet 2</h3>
+                <img src="images/maquette.png" alt="Projet 2" style="max-width:300px;">
+                <p>Description du projet 2. Technologies utilisées : Html,CSS</p>
+                <a href="#">Voir le projet:https://github.com/r-stephane/responsive-design-.git</a>
+            </div>
+
+            <div class="projet">
+                <h3>Projet 3</h3>
+                <img src="images/ombre.jpg" alt="Projet 2" style="max-width:300px;">
+                <p>Description du projet 3.technologies utilcode pour lier mon gmail directement a mon compte
+isées:node.js,express</p>
+                <a href="#">Voir le projet: https://github.com/r-stephane/Ombre_Afrique</a>
+            </div>
+
+            <!-- Ajoutez d'autres projets ici -->
         </div>
     </section>
 
@@ -76,18 +126,17 @@
             <p>Où contactez-moi directement à : <a href="mailto:votre@email.com">ribeyestephane@email.com</a></p>
         </div>
     </section>
-
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
-            <div>
-                <a href="[lien LinkedIn]">LinkedIn</a> |
-                <a href="[lien GitHub]">GitHub</a> |
-                <a href="[lien Twitter]">Twitter</a>
-                <a href="[lien Facebook]">Facebook</a>
-            </div>
-        </div>
-    </footer>
+   <div class="container">
+       <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+       <div id="foot">
+           <a href="https://www.linkedin.com"><i class="bi bi-linkedin"></i> LinkedIn</a> 
+           <a href="https://github.com"><i class="bi bi-github"></i> GitHub</a> 
+           <a href="https://x.com/home"><i class="bi bi-twitter-x"></i> Twitter</a> 
+       </div>
+   </div>
+</footer>
+<script src="script.js"></script>
 </body>
 
 </html>
